@@ -1,0 +1,30 @@
+body{
+  overflow: hidden;
+}
+
+#kitten{
+  position: absolute;
+  bottom: -1000px;
+  width: 33%;
+}
+
+#to-dont-entry input {
+  box-shadow: 5px 3px 6px black;
+}
+
+#to-dont-list li:nth-child(odd){
+  border: 1px solid lightgreen;
+  box-shadow: 8px 5px 6px black;
+  background-color: pink;
+}
+#to-dont-list li:nth-child(even){
+  border: 1px solid pink;
+  box-shadow: 8px 5px 6px black;
+  background-color: lightgreen;
+}
+
+#to-dont-list {
+  background-color: lightgrey;
+  padding: 1em;
+  box-shadow: 8px 5px 6px black;
+}
