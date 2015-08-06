@@ -5,7 +5,7 @@ body{
 h1 {
   text-align: center;
   font-size: 50px;
-  font-family: 'La Belle Aurore', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
   color: rgb(139,0,139);
   font-size: 70px;
   margin-top: -1%;
@@ -16,7 +16,8 @@ h2 {
   text-align: center;
   font-size: 24px;
   color: rgb(238,130,238);
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'La Belle Aurore', cursive;
+
 }
 
 article {
@@ -29,6 +30,8 @@ article {
   vertical-align: middle;
   border-radius: 10%;
   border: 3px solid lightblue;
+  font-family: 'Open Sans Condensed', sans-serif;
+
 }
 
 .heart{
@@ -56,13 +59,14 @@ article {
   color:pink;
   font-size: 35px;
   border-radius: 10px;
-  font-family: 'La Belle Aurore', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
 
 }
 
 .love-button:hover {
-  background-color: pink;
+  background-color: rgb(139,0,139);
   color: white;
+  border: 0;
 }
 
 .picture-container {
@@ -76,7 +80,7 @@ article {
 
 .picture-frame {
   width: 60%;
-  background: pink;
+  background: rgb(255,105,180);
   padding: 10px;
   margin-left: 0px;
   border-radius: 10px;
