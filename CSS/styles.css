@@ -2,20 +2,50 @@ body{
   overflow: hidden;
 }
 
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'La Belle Aurore', cursive;
+  color: rgb(139,0,139);
+  font-size: 70px;
+  margin-top: -1%;
+}
+
+h2 {
+  margin-top: -4%;
+  text-align: center;
+  font-size: 24px;
+  color: rgb(238,130,238);
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+article {
+  background: white;
+  color: pink;
+  width: 35%;
+  margin-left: 10%;
+  display: inline-block;
+  height: 15em;
+  vertical-align: middle;
+  border-radius: 10%;
+  border: 3px solid lightblue;
+}
+
 .heart{
   position: absolute;
-  left: 50%;
-  top: 66%;
+  left: 10%;
+  top: 10%;
   font-size: 5em;
 }
 
 .button-container {
   width: 100%;
   height: 25%;
-  color:pink;
+  color:lightblue;
   text-align: center;
   font-weight: bold;
   font-size: 18px;
+
 }
 
 .love-button {
@@ -26,8 +56,68 @@ body{
   color:pink;
   font-size: 35px;
   border-radius: 10px;
+  font-family: 'La Belle Aurore', cursive;
+
 }
 
+.love-button:hover {
+  background-color: pink;
+  color: white;
+}
+
+.picture-container {
+  width: 100%;
+  height: 40%;
+  float: left;
+  margin-left: 0%;
+  padding-top: 5%;
+
+}
+
+.picture-frame {
+  width: 60%;
+  background: pink;
+  padding: 10px;
+  margin-left: 0px;
+  border-radius: 10px;
+  overflow:auto;
+  vertical-align: middle;
+}
+
+.picture-frame img {
+  width: 45%;
+  border: 2px pink solid;
+  border-radius: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 4%;
+  height: 90%;
+}
+
+.picture-frame article {
+  text-align: left;
+  color: pink;
+  padding: 2%;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.quote-box {
+  border-radius: 10px;
+  background: pink;
+  width: 70%;
+  height: 10em;
+  margin: 0 0 0 0;
+  text-align: center;
+  display: inline-block;
+  float:right;
+}
+
+article {
+  text-align: right;
+  color:white;
+  padding-top: 5%;
+}
 #kitten{
   position: absolute;
   bottom: -1000px;
